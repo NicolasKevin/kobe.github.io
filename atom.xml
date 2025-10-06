@@ -6,7 +6,7 @@
   <link href="http://yangguohong.com/atom.xml" rel="self"/>
   
   <link href="http://yangguohong.com/"/>
-  <updated>2025-10-03T09:58:28.284Z</updated>
+  <updated>2025-10-06T13:29:13.357Z</updated>
   <id>http://yangguohong.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2、Mac test tags</title>
+    <link href="http://yangguohong.com/2025/10/06/2-mac-test-tags/"/>
+    <id>http://yangguohong.com/2025/10/06/2-mac-test-tags/</id>
+    <published>2025-10-06T12:41:50.000Z</published>
+    <updated>2025-10-06T13:29:13.357Z</updated>
+    
+    
+    
+    
+    
+    <category term="hexod" scheme="http://yangguohong.com/tags/hexod/"/>
+    
+  </entry>
   
   <entry>
     <title>kobe&#39;s first blog</title>
@@ -55,21 +70,26 @@
     <link href="http://yangguohong.com/2022/07/03/1-mac-xia-shi-yong-github-hexo-da-jian-ge-ren-bo-ke/"/>
     <id>http://yangguohong.com/2022/07/03/1-mac-xia-shi-yong-github-hexo-da-jian-ge-ren-bo-ke/</id>
     <published>2022-07-02T17:10:39.000Z</published>
-    <updated>2025-10-05T15:57:00.128Z</updated>
+    <updated>2025-10-06T13:06:14.032Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;一、环境准备&quot;&gt;&lt;a href=&quot;#一、环境准备&quot; class=&quot;headerlink&quot; title=&quot;一、环境准备&quot;&gt;&lt;/a&gt;一、环境准备&lt;/h2&gt;&lt;h3 id=&quot;1-安装Homebrew&quot;&gt;&lt;a href=&quot;#1-安装Homebrew&quot;</summary>
+    <summary type="html">&lt;p&gt;ceshi&lt;/p&gt;
+&lt;h2 id=&quot;一、环境准备&quot;&gt;&lt;a href=&quot;#一、环境准备&quot; class=&quot;headerlink&quot; title=&quot;一、环境准备&quot;&gt;&lt;/a&gt;一、环境准备&lt;/h2&gt;&lt;h3 id=&quot;1-安装Homebrew&quot;&gt;&lt;a</summary>
         
       
     
     
     
+    <category term="Markdown" scheme="http://yangguohong.com/categories/Markdown/"/>
     
-    <category term="Hexo" scheme="http://yangguohong.com/tags/Hexo/"/>
+    
+    <category term="Typora" scheme="http://yangguohong.com/tags/Typora/"/>
+    
+    <category term="Markdown" scheme="http://yangguohong.com/tags/Markdown/"/>
     
   </entry>
   
