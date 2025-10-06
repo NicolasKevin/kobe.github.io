@@ -70,7 +70,7 @@
     <link href="http://yangguohong.com/2022/07/03/1-mac-xia-shi-yong-github-hexo-da-jian-ge-ren-bo-ke/"/>
     <id>http://yangguohong.com/2022/07/03/1-mac-xia-shi-yong-github-hexo-da-jian-ge-ren-bo-ke/</id>
     <published>2022-07-02T17:10:39.000Z</published>
-    <updated>2025-10-06T13:06:14.032Z</updated>
+    <updated>2025-10-06T15:14:59.092Z</updated>
     
     
       
@@ -84,10 +84,20 @@
     
     
     
-    <category term="Markdown" scheme="http://yangguohong.com/categories/Markdown/"/>
+    <category term="技术笔记" scheme="http://yangguohong.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="前端开发" scheme="http://yangguohong.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
+    
+    <category term="Hexo博客" scheme="http://yangguohong.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
-    <category term="Typora" scheme="http://yangguohong.com/tags/Typora/"/>
+    <category term="Hexo" scheme="http://yangguohong.com/tags/Hexo/"/>
+    
+    <category term="Mac" scheme="http://yangguohong.com/tags/Mac/"/>
+    
+    <category term="Github" scheme="http://yangguohong.com/tags/Github/"/>
+    
+    <category term="Matery" scheme="http://yangguohong.com/tags/Matery/"/>
     
     <category term="Markdown" scheme="http://yangguohong.com/tags/Markdown/"/>
     

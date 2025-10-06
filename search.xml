@@ -58,14 +58,24 @@
       
       <categories>
           
-          <category> Markdown </category>
+          <category> 技术笔记 </category>
+          
+          <category> 前端开发 </category>
+          
+          <category> Hexo博客 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Typora </tag>
+            <tag> Hexo </tag>
+            
+            <tag> Mac </tag>
+            
+            <tag> Github </tag>
+            
+            <tag> Matery </tag>
             
             <tag> Markdown </tag>
             
