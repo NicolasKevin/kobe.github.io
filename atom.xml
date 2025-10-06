@@ -6,7 +6,7 @@
   <link href="http://yangguohong.com/atom.xml" rel="self"/>
   
   <link href="http://yangguohong.com/"/>
-  <updated>2025-10-06T15:31:29.003Z</updated>
+  <updated>2025-10-06T15:32:57.473Z</updated>
   <id>http://yangguohong.com/</id>
   
   <author>
@@ -17,30 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2、test</title>
-    <link href="http://yangguohong.com/2025/10/06/2-test/"/>
-    <id>http://yangguohong.com/2025/10/06/2-test/</id>
-    <published>2025-10-06T15:28:05.000Z</published>
-    <updated>2025-10-06T15:31:29.003Z</updated>
-    
-    
-    
-    
-    <category term="技术笔记" scheme="http://yangguohong.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="前端开发" scheme="http://yangguohong.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/"/>
-    
-    <category term="Hexo博客" scheme="http://yangguohong.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>1、Mac下使用GitHub+Hexo搭建个人博客</title>
     <link href="http://yangguohong.com/2022/07/03/1-mac-xia-shi-yong-github-hexo-da-jian-ge-ren-bo-ke/"/>
     <id>http://yangguohong.com/2022/07/03/1-mac-xia-shi-yong-github-hexo-da-jian-ge-ren-bo-ke/</id>
     <published>2022-07-02T17:10:39.000Z</published>
-    <updated>2025-10-06T15:14:59.092Z</updated>
+    <updated>2025-10-06T15:32:57.473Z</updated>
     
     
       
