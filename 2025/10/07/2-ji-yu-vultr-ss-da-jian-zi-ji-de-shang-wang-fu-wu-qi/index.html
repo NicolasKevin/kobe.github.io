@@ -626,6 +626,38 @@
 <p><img src="/../images/vultr+ss/image-202510072252.png" alt="image-202510072252"></p>
 <p>可以看到需要连接 ss 的 ip地址，密码，端口，和加密方式。</p>
 <p>搞定，将这些信息<strong>保存起来</strong>，那么这时候你就可以使用它们来科学上网啦。</p>
+<h3 id="3-注意⚠️："><a href="#3-注意⚠️：" class="headerlink" title="3.注意⚠️："></a>3.注意⚠️：</h3><p>此时只是有了IP+端口但是 端口不通，因为vultr默认只有22端口是通的，此时一定要安装防火墙并配置以后才能用别的端口。</p>
+<ul>
+<li>下载防火墙</li>
+</ul>
+<pre class="line-numbers language-language-bash"><code class="language-language-bash">yum install -y firewalld 
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>查询防火墙规则</li>
+</ul>
+<pre class="line-numbers language-language-bash"><code class="language-language-bash">firewall-cmd --state #查看防火墙状态 
+firewall-cmd --list-port #查看已开放端口 
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<ul>
+<li>开放443端口</li>
+</ul>
+<pre class="line-numbers language-language-bash"><code class="language-language-bash">firewall-cmd --permanent --add-port=443/tcp #开放443端口 
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>重启防火墙(修改配置后要重启防火墙)</li>
+</ul>
+<pre class="line-numbers language-language-bash"><code class="language-language-bash">firewall-cmd --reload
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>查询端口是否开放</li>
+</ul>
+<pre class="line-numbers language-language-bash"><code class="language-language-bash">firewall-cmd --query-port=443/tcp 
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<ul>
+<li>端口冲突时移除端口</li>
+</ul>
+<pre class="line-numbers language-language-bash"><code class="language-language-bash">firewall-cmd --permanent --remove-port=443/tcp #移除端口
+<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <h2 id="3、使用vultr的ss"><a href="#3、使用vultr的ss" class="headerlink" title="3、使用vultr的ss"></a>3、使用vultr的ss</h2><h3 id="1-iPhone使用ss"><a href="#1-iPhone使用ss" class="headerlink" title="1.iPhone使用ss"></a>1.iPhone使用ss</h3><p>iPhone要下载的app需要在appstore下载Shadowsocks，但是需要用美区账号才能下载。可以上某宝买个美区账号来尝试一下。</p>
 <p>app样式如图：</p>
 <p><img src="/../images/vultr+ss/image-20251007230126165.png" alt="image-20251007230126165"></p>
