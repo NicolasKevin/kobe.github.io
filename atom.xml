@@ -6,7 +6,7 @@
   <link href="http://yangguohong.com/atom.xml" rel="self"/>
   
   <link href="http://yangguohong.com/"/>
-  <updated>2025-10-07T15:57:50.064Z</updated>
+  <updated>2025-10-07T16:21:01.589Z</updated>
   <id>http://yangguohong.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yangguohong.com/2025/10/07/2-ji-yu-vultr-ss-da-jian-zi-ji-de-shang-wang-fu-wu-qi/"/>
     <id>http://yangguohong.com/2025/10/07/2-ji-yu-vultr-ss-da-jian-zi-ji-de-shang-wang-fu-wu-qi/</id>
     <published>2025-10-07T12:32:32.000Z</published>
-    <updated>2025-10-07T15:57:50.064Z</updated>
+    <updated>2025-10-07T16:21:01.589Z</updated>
     
     
       
@@ -39,11 +39,11 @@
     <category term="网络代理" scheme="http://yangguohong.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/%E7%BD%91%E7%BB%9C%E4%BB%A3%E7%90%86/"/>
     
     
-    <category term="Vultr" scheme="http://yangguohong.com/tags/Vultr/"/>
-    
     <category term="Mac" scheme="http://yangguohong.com/tags/Mac/"/>
     
     <category term="Github" scheme="http://yangguohong.com/tags/Github/"/>
+    
+    <category term="Vultr" scheme="http://yangguohong.com/tags/Vultr/"/>
     
     <category term="Shadowrocks" scheme="http://yangguohong.com/tags/Shadowrocks/"/>
     
@@ -76,11 +76,11 @@
     <category term="Hexo博客" scheme="http://yangguohong.com/categories/%E6%8A%80%E6%9C%AF%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/Hexo%E5%8D%9A%E5%AE%A2/"/>
     
     
+    <category term="Hexo" scheme="http://yangguohong.com/tags/Hexo/"/>
+    
     <category term="Mac" scheme="http://yangguohong.com/tags/Mac/"/>
     
     <category term="Github" scheme="http://yangguohong.com/tags/Github/"/>
-    
-    <category term="Hexo" scheme="http://yangguohong.com/tags/Hexo/"/>
     
     <category term="Matery" scheme="http://yangguohong.com/tags/Matery/"/>
     
