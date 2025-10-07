@@ -365,16 +365,16 @@
                     
                     <div class="article-tag">
                         
+                            <a href="/tags/Vultr/">
+                                <span class="chip bg-color">Vultr</span>
+                            </a>
+                        
                             <a href="/tags/Mac/">
                                 <span class="chip bg-color">Mac</span>
                             </a>
                         
                             <a href="/tags/Github/">
                                 <span class="chip bg-color">Github</span>
-                            </a>
-                        
-                            <a href="/tags/Vultr/">
-                                <span class="chip bg-color">Vultr</span>
                             </a>
                         
                             <a href="/tags/Shadowrocks/">
@@ -431,15 +431,15 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h1><p>如果你想要查询一些权威的资料，上 Google 搜索有用的内容，超流畅 1080p 高清观看Youtube，畅游全网，而且完全拥有自己的服务器，那么本文将从购买vultr vps，到搭建属于你自己的 ss(Shadowrocks) 服务器，并且开启 BBR 加速上网，10分钟几个步骤轻松搞定。</p>
+                <h2 id="前言："><a href="#前言：" class="headerlink" title="前言："></a>前言：</h2><p>如果你想要查询一些权威的资料，上 Google 搜索有用的内容，超流畅 1080p 高清观看Youtube，畅游全网，而且完全拥有自己的服务器，那么本文将从购买vultr vps，到搭建属于你自己的 ss(Shadowrocks) 服务器，并且开启 BBR 加速上网，10分钟几个步骤轻松搞定。</p>
 <p>首先我们需要购买一台境外的服务器，接着我们在这台云服务器里面安装代理服务，那么以后我们上网的时候就可以通过它来中转，轻松畅快的畅游全网了。</p>
-<h1 id="1、搭建国外服务器"><a href="#1、搭建国外服务器" class="headerlink" title="1、搭建国外服务器"></a>1、搭建国外服务器</h1><h2 id="1-购买vultr"><a href="#1-购买vultr" class="headerlink" title="1.购买vultr"></a>1.购买vultr</h2><p>在使用了<a target="_blank" rel="noopener" href="https://wistbean.github.io/cloud-server.html">一些服务器之后</a>，我觉得 <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=7772384-4F">vultr</a> 的性价比超高，最低 $2.5&#x2F;月 ，就可以拥有一台 1TB 月流量的服务器了，根本用不完。</p>
+<h2 id="1、搭建国外服务器"><a href="#1、搭建国外服务器" class="headerlink" title="1、搭建国外服务器"></a>1、搭建国外服务器</h2><h3 id="1-购买vultr"><a href="#1-购买vultr" class="headerlink" title="1.购买vultr"></a>1.购买vultr</h3><p>在使用了<a target="_blank" rel="noopener" href="https://wistbean.github.io/cloud-server.html">一些服务器之后</a>，我觉得 <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=7772384-4F">vultr</a> 的性价比超高，最低 $2.5&#x2F;月 ，就可以拥有一台 1TB 月流量的服务器了，根本用不完。</p>
 <p>而且现在 <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=7772384-4F">vultr</a> 优惠力度很大，<strong>充值 10 美元送 50 美元</strong>。（重要的是支持<strong>Alipay</strong>）</p>
-<h2 id="2-注册vultr"><a href="#2-注册vultr" class="headerlink" title="2.注册vultr"></a>2.注册vultr</h2><p>点击 <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=7772384-4F">vultr官网送 50 美元优惠</a> 进行注册：</p>
+<h3 id="2-注册vultr"><a href="#2-注册vultr" class="headerlink" title="2.注册vultr"></a>2.注册vultr</h3><p>点击 <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=7772384-4F">vultr官网送 50 美元优惠</a> 进行注册：</p>
 <p><img src="/../images/vultr+ss/image-20251007214640417.png" alt="image-20251007214640417"></p>
 <p>在这里输入你的邮箱和密码，接着点击按钮「Create Account」创建账号，然后 vultr 会给你的注册邮箱发送一份验证邮件，激活就好了。</p>
-<h2 id="3-登录vultr"><a href="#3-登录vultr" class="headerlink" title="3.登录vultr"></a>3.登录vultr</h2><p><img src="/../images/vultr+ss/image-20251007214854433.png" alt="image-20251007214854433"></p>
-<h2 id="4-购买vultr"><a href="#4-购买vultr" class="headerlink" title="4.购买vultr"></a>4.购买vultr</h2><p>登录进去之后选择左边的 billing 的菜单进行充值，vultr提供的支付方式简直完美，支持信用卡，比特币，paypal，支付宝，微信支付，在这里可以进行充值支付。</p>
+<h3 id="3-登录vultr"><a href="#3-登录vultr" class="headerlink" title="3.登录vultr"></a>3.登录vultr</h3><p><img src="/../images/vultr+ss/image-20251007214854433.png" alt="image-20251007214854433"></p>
+<h3 id="4-购买vultr"><a href="#4-购买vultr" class="headerlink" title="4.购买vultr"></a>4.购买vultr</h3><p>登录进去之后选择左边的 billing 的菜单进行充值，vultr提供的支付方式简直完美，支持信用卡，比特币，paypal，支付宝，微信支付，在这里可以进行充值支付。</p>
 <p><img src="/../images/vultr+ss/image-20251007215339656.png" alt="image-20251007215339656"></p>
 <p>充值完成之后，就可以点击右侧的  <code>deploy one</code> 或者右侧的 + 号来选购你要的服务器：</p>
 <p><img src="/../images/vultr+ss/image-20251007215847537.png" alt="image-20251007215847537"></p>
@@ -576,10 +576,10 @@
 <p>点击后面三个点再点击Server Details后可以看到服务器的链接信息和账号密码。</p>
 <p>以下信息等会用来从你的电脑连接到你的服务器上：</p>
 <p><img src="/../images/vultr+ss/image-20251007222228668.png" alt="image-20251007222228668"></p>
-<h2 id="5-测试vultr"><a href="#5-测试vultr" class="headerlink" title="5.测试vultr"></a>5.测试vultr</h2><p>访问<a target="_blank" rel="noopener" href="https://ip112.cn/">IP112.cn</a>网站，按照下图提示，依次输入服务器的<code>IP地址</code>、<code>端口</code>（Vultr可以直接填写22，因为默认只开放22端口），然后点击<code>开始检查</code>即可检查此IP是否正常。只有当国内和国外的TCP检查都是正常时，才表示此IP是正常的。如果不正常销毁服务器，选择其他地区服务器重新创建。</p>
+<h3 id="5-测试vultr"><a href="#5-测试vultr" class="headerlink" title="5.测试vultr"></a>5.测试vultr</h3><p>访问<a target="_blank" rel="noopener" href="https://ip112.cn/">IP112.cn</a>网站，按照下图提示，依次输入服务器的<code>IP地址</code>、<code>端口</code>（Vultr可以直接填写22，因为默认只开放22端口），然后点击<code>开始检查</code>即可检查此IP是否正常。只有当国内和国外的TCP检查都是正常时，才表示此IP是正常的。如果不正常销毁服务器，选择其他地区服务器重新创建。</p>
 <p><strong>检查通过：</strong></p>
 <p><img src="/../images/vultr+ss/image-20251007223817839.png" alt="image-20251007223817839"></p>
-<h1 id="2、在Vultr上搭建ss服务器"><a href="#2、在Vultr上搭建ss服务器" class="headerlink" title="2、在Vultr上搭建ss服务器"></a>2、在Vultr上搭建ss服务器</h1><h2 id="1-下载服务器连接工具："><a href="#1-下载服务器连接工具：" class="headerlink" title="1.下载服务器连接工具："></a>1.下载服务器连接工具：</h2><p>如果是其他系统可参考下面方法：</p>
+<h2 id="2、在Vultr上搭建ss服务器"><a href="#2、在Vultr上搭建ss服务器" class="headerlink" title="2、在Vultr上搭建ss服务器"></a>2、在Vultr上搭建ss服务器</h2><h3 id="1-下载服务器连接工具："><a href="#1-下载服务器连接工具：" class="headerlink" title="1.下载服务器连接工具："></a>1.下载服务器连接工具：</h3><p>如果是其他系统可参考下面方法：</p>
 <p>需要在你的电脑连接到你的服务器，那么就需要连接工具，连接工具有很多个，根据你的需要，以下随意下载一个连接工具即可：</p>
 <ul>
 <li><a target="_blank" rel="noopener" href="https://www.ssh.com/a/putty-0.70-installer.msi">PUTTY Windows版本下载</a></li>
@@ -591,7 +591,7 @@
 <span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 <p><strong>登录成功：</strong></p>
 <p><img src="/../images/vultr+ss/image-20251007224140803.png" alt="image-20251007224140803"></p>
-<h2 id="2-开始搭建ss"><a href="#2-开始搭建ss" class="headerlink" title="2.开始搭建ss"></a>2.开始搭建ss</h2><p>连接到你的 vultr 服务器之后，接下来就可以使用几个命令让你快速搭建一个属于自己的 ss 服务器（注意⚠️：如果需要root，则前面全部加sudo ）：</p>
+<h3 id="2-开始搭建ss"><a href="#2-开始搭建ss" class="headerlink" title="2.开始搭建ss"></a>2.开始搭建ss</h3><p>连接到你的 vultr 服务器之后，接下来就可以使用几个命令让你快速搭建一个属于自己的 ss 服务器（注意⚠️：如果需要root，则前面全部加sudo ）：</p>
 <ul>
 <li><strong>输入以下命令，然后回车：</strong></li>
 </ul>
@@ -626,13 +626,13 @@
 <p><img src="/../images/vultr+ss/image-202510072252.png" alt="image-202510072252"></p>
 <p>可以看到需要连接 ss 的 ip地址，密码，端口，和加密方式。</p>
 <p>搞定，将这些信息<strong>保存起来</strong>，那么这时候你就可以使用它们来科学上网啦。</p>
-<h1 id="3、使用vultr的ss"><a href="#3、使用vultr的ss" class="headerlink" title="3、使用vultr的ss"></a>3、使用vultr的ss</h1><h2 id="1-iPhone使用ss"><a href="#1-iPhone使用ss" class="headerlink" title="1.iPhone使用ss"></a>1.iPhone使用ss</h2><p>iPhone要下载的app需要在appstore下载Shadowsocks，但是需要用美区账号才能下载。可以上某宝买个美区账号来尝试一下。</p>
+<h2 id="3、使用vultr的ss"><a href="#3、使用vultr的ss" class="headerlink" title="3、使用vultr的ss"></a>3、使用vultr的ss</h2><h3 id="1-iPhone使用ss"><a href="#1-iPhone使用ss" class="headerlink" title="1.iPhone使用ss"></a>1.iPhone使用ss</h3><p>iPhone要下载的app需要在appstore下载Shadowsocks，但是需要用美区账号才能下载。可以上某宝买个美区账号来尝试一下。</p>
 <p>app样式如图：</p>
 <p><img src="/../images/vultr+ss/image-20251007230126165.png" alt="image-20251007230126165"></p>
-<h2 id="2-Mac端使用ss"><a href="#2-Mac端使用ss" class="headerlink" title="2.Mac端使用ss"></a>2.Mac端使用ss</h2><p>使用Github上面地址下载<a target="_blank" rel="noopener" href="https://github.com/losorick/shadowsocks-mac-dmg#">shadowsocks dmg</a>即可。</p>
+<h3 id="2-Mac端使用ss"><a href="#2-Mac端使用ss" class="headerlink" title="2.Mac端使用ss"></a>2.Mac端使用ss</h3><p>使用Github上面地址下载<a target="_blank" rel="noopener" href="https://github.com/losorick/shadowsocks-mac-dmg#">shadowsocks dmg</a>即可。</p>
 <p>Mac端应用样式如图：</p>
 <p><img src="/../images/vultr+ss/image-20251007230524596.png" alt="image-20251007230524596"></p>
-<h1 id="4、vultr使用BBR加速上网"><a href="#4、vultr使用BBR加速上网" class="headerlink" title="4、vultr使用BBR加速上网"></a>4、vultr使用BBR加速上网</h1><p>访问速度并不是快到飞起来，所以接下来就可以使用 BBR 加速了。也很简单，几个命令就搞定了。</p>
+<h2 id="4、vultr使用BBR加速上网"><a href="#4、vultr使用BBR加速上网" class="headerlink" title="4、vultr使用BBR加速上网"></a>4、vultr使用BBR加速上网</h2><p>访问速度并不是快到飞起来，所以接下来就可以使用 BBR 加速了。也很简单，几个命令就搞定了。</p>
 <ul>
 <li><strong>安装 BBR</strong></li>
 </ul>
@@ -647,7 +647,7 @@
 <p>接着按任意键，开始安装，坐等一会。安装完成一会之后它会提示我们是否重新启动vps，我们输入 y 确定重启服务器。</p>
 <p>重新启动之后，输入 <code>lsmod | grep bbr</code> 如果看到 tcp_bbr 就说明 BBR 已经启动了。</p>
 <p>再访问一下 Youtube，1080p 超高清，秒开，很顺畅不卡顿，超爽！</p>
-<h1 id="答谢："><a href="#答谢：" class="headerlink" title="答谢："></a>答谢：</h1><ul>
+<h2 id="答谢："><a href="#答谢：" class="headerlink" title="答谢："></a>答谢：</h2><ul>
 <li><a target="_blank" rel="noopener" href="https://wistbean.github.io/banwagong-ss.html">搬瓦工快速手动搭建SS(Shadowsocks)服务器简明详细教程</a></li>
 <li><a target="_blank" rel="noopener" href="https://wistbean.github.io/cloud-server.html">我用了十几台云服务器VPS后，告诉你哪家云服务产商性价比高,性能稳定</a></li>
 </ul>
@@ -715,16 +715,16 @@
                     
                         <div class="article-tag">
                             
+                                <a href="/tags/Vultr/">
+                                    <span class="chip bg-color">Vultr</span>
+                                </a>
+                            
                                 <a href="/tags/Mac/">
                                     <span class="chip bg-color">Mac</span>
                                 </a>
                             
                                 <a href="/tags/Github/">
                                     <span class="chip bg-color">Github</span>
-                                </a>
-                            
-                                <a href="/tags/Vultr/">
-                                    <span class="chip bg-color">Vultr</span>
                                 </a>
                             
                                 <a href="/tags/Shadowrocks/">
@@ -855,16 +855,16 @@
                 
                 <div class="card-action article-tags">
                     
+                    <a href="/tags/Vultr/">
+                        <span class="chip bg-color">Vultr</span>
+                    </a>
+                    
                     <a href="/tags/Mac/">
                         <span class="chip bg-color">Mac</span>
                     </a>
                     
                     <a href="/tags/Github/">
                         <span class="chip bg-color">Github</span>
-                    </a>
-                    
-                    <a href="/tags/Vultr/">
-                        <span class="chip bg-color">Vultr</span>
                     </a>
                     
                     <a href="/tags/Shadowrocks/">
@@ -928,16 +928,16 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Hexo/">
-                        <span class="chip bg-color">Hexo</span>
-                    </a>
-                    
                     <a href="/tags/Mac/">
                         <span class="chip bg-color">Mac</span>
                     </a>
                     
                     <a href="/tags/Github/">
                         <span class="chip bg-color">Github</span>
+                    </a>
+                    
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
                     </a>
                     
                     <a href="/tags/Matery/">
